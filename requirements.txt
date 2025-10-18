@@ -1,0 +1,53 @@
+# ==============================
+# Core Backend Framework
+# ==============================
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+pydantic
+
+# ==============================
+# AI Models & Orchestration
+# ==============================
+openai>=1.40.0
+langchain
+langgraph
+
+# ==============================
+# Telephony / Voice Integration
+# ==============================
+twilio
+
+# ==============================
+# Speech-to-Text / Text-to-Speech
+# ==============================
+# Option 1: Local Whisper (OpenAI)
+whisper-timestamped
+# Option 2: Azure Cognitive Services (high-quality TTS/STT)
+azure-cognitiveservices-speech
+
+# ==============================
+# Database / Persistence
+# ==============================
+sqlalchemy
+
+# ==============================
+# Utilities & Helpers
+# ==============================
+aiohttp
+httpx
+beautifulsoup4
+
+# ==============================
+# Development & Testing
+# ==============================
+pytest
+pytest-asyncio
+black
+flake8
+
+# ==============================
+# Local Development (optional)
+# ==============================
+pyngrok        # to expose localhost for Twilio webhook testing

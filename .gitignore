@@ -1,0 +1,16 @@
+# Environment files
+.env
+*.env
+.env.local
+
+# Database files
+*.db
+
+# Python cache / system junk
+__pycache__/
+*.pyc
+.DS_Store
+
+# Virtual env
+venv/
+.env/
